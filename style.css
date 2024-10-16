@@ -23,6 +23,10 @@ nav {
     padding: 10px 0;
 }
 
+/*NAV-01	Navigatie	Maak een navigatie structuur element, met achtergrondkleur #050505, met
+daarin een ongeordende lijst met 2 items. Probeer deze naast elkaar en horizontaal gecentreerd te
+plaatsen. Tip: CSS Flexbox*/
+
 nav ul {
     list-style: none;
     display: flex;
@@ -34,13 +38,24 @@ nav ul {
 nav li {
     display: inline;
 }
+/*LINK-01	Hyperlinks	Plaats binnen elk item van de navigatielijst
+een dummy link. Geef deze een tekstkleur #fb9c08 en zorg dat deze niet onderlijnd worden.
+Wijzig de achtergrondkleur van de hyperlink wanneer de gebruiker hier met
+ de muis over beweegt. Gebruik de achtergrondkleur #fb9c08 en maak ook de tekstkleur wit.*/
 
 nav a {
-    color: white;
+    color: #fb9c08;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+nav a:hover {
+    background-color: #fb9c08;
+    color: white;
+    border-radius: 4px;
+}
 
 
 
@@ -48,7 +63,5 @@ body {
     width: 1000px;
     margin: 0 auto;
 }
-/*HEAD-01 | Header  Maak een header structuur element met als achtergrondafbeelding chuck.webp.
-Zorg dat het header element 400px hoog is.   */
 
 
