@@ -1,0 +1,54 @@
+/*| BOOT-01 | Algemene opmaak | Gebruik de wildcard selector om de witruimte binnen &
+ buiten elk element op 0 te zetten. Geef het body element een breedte van 1000px en zorg dat de
+ witruimte buiten het element links en rechts automatisch berekend wordt. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 400px;
+    background-image: url('assets/chuck.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; flex-end;
+}
+
+nav {
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+/*HEAD-01 | Header  Maak een header structuur element met als achtergrondafbeelding chuck.webp.
+Zorg dat het header element 400px hoog is.   */
+
+
